@@ -1,0 +1,77 @@
+IP ADDRESSING
+______________
+
+IP ADDRESS         Class        Subnet Mask     CIDR Range
+30.0.0.0 -           A          255.0.0.0       /8
+162.53.0.0 -         B          255.255.0.0     /16
+193.25.20.0          C          255.255.255.0   /24
+
+
+DECIMALS NUMBERS
+________________
+
+Numbers: 10 -> 0,1,2,3,4,5,6,7,8,9 -> Decimal ->Value= 10^position
+Place Value
+
+537  ---->     5         3         7
+              10^2      10^1      10^0
+              100       10        1
+Number =     (5*100)    (3*10)    (7*1)
+       =      500    +  30     +   7     =  537
+
+
+BINARY NUMBERS 
+______________
+
+Numbers : 2 -> 1,0 -> Binary Value =  2^position
+
+                     1     1     1     1     1     1     1     1
+8 bit IP Address -> 2^7   2^6   2^5   2^4   2^3   2^2   2^1   2^0
+                    128   64    32    16    8     4     2     1    = 255
+
+
+Convert 30.0.0.0 to binary
+
+30    30   30   30  14   6   2   0
+128   64   32   16   8   4   2   1
+0     0    0    1    1   1   1   0
+
+Solution = 00011110 This is the binary representation of 30
+
+128   64   32   16   8   4   2   1
+0     0    0    0    0   0   0   0
+
+Solution = 00000000 This is the binary representation of 0
+
+Solution Convert 30.0.0.0 = 00011110.00000000.00000000.00000000
+
+
+Now 
+
+Convert Binary 00011110.00000000.00000000.00000000 to Decimals
+
+128   64   32   16   8   4   2   1
+0     0    0    1    1   1   1   0 
+
+= 16 + 8 + 4 + 2 = 30
+
+128   64   32   16   8   4   2   1
+0     0    0    0    0   0   0   0
+
+
+For the rest is 0
+Final Solution 30.0.0.0
+
+Question.
+1 Convert 50.24.10.1 to binary , identify the subnet mask , cidr range.
+2 Convert 10000101.01111101.00011111.11111111 to decimal, identify subnet mask
+  cidr range.
+
+
+
+
+
+
+
+
+
